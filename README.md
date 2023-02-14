@@ -1,6 +1,7 @@
 # typescript_prac
 
-typescriptというよりjavascriptの練習になった...
+typescriptというよりjavascriptの練習...
+Promis・async/awaitが分からん。
 
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference<br>
 https://typescriptbook.jp/<br>
