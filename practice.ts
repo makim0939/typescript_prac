@@ -203,7 +203,7 @@ const p = new Promise((resolve, reject) => {
 //async/await
 function resolveAfter2Seconds() {
     return new Promise(resolve => {
-      setTimeout(() => {//このsetTimeoutと上のPromiseのsetTimeoutは並行して行われてる→非同期処理？
+      setTimeout(() => {
         console.log("awaitで指定した関数の中のsetTimeout(3s)")
         resolve('acyncResolve');
       }, 3000);
